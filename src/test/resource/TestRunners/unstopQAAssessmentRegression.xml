@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Unstop QA Assessment Regression suite" verbose="3" thread-count="3" parallel="tests">
+	
+	<test name="Basic Information Page">
+		<parameter name="url" value="http://qa-assesments.unstop.events.s3-website.ap-south-1.amazonaws.com/basic"/>
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.qaassessment.tests.BasicInfoPageTest" />
+		</classes>		
+	</test>
+	
+	<test name="Questions Setting Page">
+		<parameter name="url" value="http://qa-assesments.unstop.events.s3-website.ap-south-1.amazonaws.com/basic"/>
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.qaassessment.tests.QuestionSettingsPageTest"/>
+		</classes>
+		
+	</test>	
+	
+	<test name="Registeration Form Page">
+		<parameter name="url" value="http://qa-assesments.unstop.events.s3-website.ap-south-1.amazonaws.com/basic"/>
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.qaassessment.tests.RegistrationFormPageTest"/>
+		</classes>
+	
+	</test>
+	
+</suite>
