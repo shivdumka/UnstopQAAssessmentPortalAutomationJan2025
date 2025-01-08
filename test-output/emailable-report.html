@@ -8,47 +8,25 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">3,652</td><td></td><td></td></tr>
+<tr><th colspan="8">Unstop QA Assessment Regression suite</th></tr>
+<tr><td><a href="#t0">Questions Setting Page</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">22,336</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Basic Information Page</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">24,403</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Registeration Form Page</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">26,278</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">10</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">73,017</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.qaassessment.tests.QuestionSettingsPageTest</td><td><a href="#m0">basicPageTitleTest</a></td><td rowspan="1">1736172175481</td><td rowspan="1">51</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Unstop QA Assessment Regression suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Questions Setting Page &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.qa.qaassessment.tests.QuestionSettingsPageTest</td><td><a href="#m0">basicPageTitleTest</a></td><td rowspan="1">1736328090538</td><td rowspan="1">65</td></tr><tr class="passedeven"><td><a href="#m1">basicUrlTest</a></td><td rowspan="1">1736328090627</td><td rowspan="1">39</td></tr><tr class="passedeven"><td><a href="#m2">fillQuestionSettingsPageAndSaveTest</a></td><td rowspan="1">1736328090674</td><td rowspan="1">4583</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Basic Information Page &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.qa.qaassessment.tests.BasicInfoPageTest</td><td><a href="#m3">basicPageTitleTest</a></td><td rowspan="1">1736328092473</td><td rowspan="1">32</td></tr><tr class="passedeven"><td><a href="#m4">basicUrlTest</a></td><td rowspan="1">1736328092508</td><td rowspan="1">45</td></tr><tr class="passedeven"><td><a href="#m5">fillBasicInfoPageAndSaveTest</a></td><td rowspan="1">1736328092556</td><td rowspan="1">4971</td></tr><tr class="passedeven"><td><a href="#m6">purposeOfAssessmentTest</a></td><td rowspan="1">1736328097529</td><td rowspan="1">197</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Registeration Form Page &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.qa.qaassessment.tests.RegistrationFormPageTest</td><td><a href="#m7">addNewOrganizationTest</a></td><td rowspan="1">1736328093405</td><td rowspan="1">6194</td></tr><tr class="passedeven"><td><a href="#m8">basicPageTitleTest</a></td><td rowspan="1">1736328099601</td><td rowspan="1">16</td></tr><tr class="passedeven"><td><a href="#m9">basicUrlTest</a></td><td rowspan="1">1736328099620</td><td rowspan="1">14</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.qa.qaassessment.tests.QuestionSettingsPageTest#basicPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Unstop - Competitions, Quizzes, Hackathons, Scholarships and Internships for Students and Corporates] but found [403 Forbidden]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.qa.qaassessment.tests.QuestionSettingsPageTest.basicPageTitleTest(QuestionSettingsPageTest.java:22)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Questions Setting Page</h2><h3 id="m0">com.qa.qaassessment.tests.QuestionSettingsPageTest#basicPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.qaassessment.tests.QuestionSettingsPageTest#basicUrlTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.qaassessment.tests.QuestionSettingsPageTest#fillQuestionSettingsPageAndSaveTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Basic Information Page</h2><h3 id="m3">com.qa.qaassessment.tests.BasicInfoPageTest#basicPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.qaassessment.tests.BasicInfoPageTest#basicUrlTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.qaassessment.tests.BasicInfoPageTest#fillBasicInfoPageAndSaveTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.qaassessment.tests.BasicInfoPageTest#purposeOfAssessmentTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Registeration Form Page</h2><h3 id="m7">com.qa.qaassessment.tests.RegistrationFormPageTest#addNewOrganizationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.qaassessment.tests.RegistrationFormPageTest#basicPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.qa.qaassessment.tests.RegistrationFormPageTest#basicUrlTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

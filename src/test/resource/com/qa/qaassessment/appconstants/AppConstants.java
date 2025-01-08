@@ -10,5 +10,5 @@ public class AppConstants
 
 	public static final String EXPECTED_URL_BASIC_INFO="http://qa-assesments.unstop.events.s3-website.ap-south-1.amazonaws.com/basic";
 	
-	
+	public static final String EXPECTED_REGIS_URL="http://qa-assesments.unstop.events.s3-website.ap-south-1.amazonaws.com/form";
 }

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.qaassessment.tests.QuestionSettingsPageTest">
+      <class name="com.qa.qaassessment.tests.RegistrationFormPageTest">
         <methods>
           <include name="setUp"/>
+          <include name="addNewOrganizationTest"/>
           <include name="tearDown"/>
-          <include name="basicPageTitleTest"/>
         </methods>
-      </class> <!-- com.qa.qaassessment.tests.QuestionSettingsPageTest -->
+      </class> <!-- com.qa.qaassessment.tests.RegistrationFormPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

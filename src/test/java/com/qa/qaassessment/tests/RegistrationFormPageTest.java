@@ -30,7 +30,7 @@ public class RegistrationFormPageTest extends BaseTest
 		
 		String registrationPageURL=rs.getRegistrationURL();
 		
-		Assert.assertEquals(registrationPageURL,AppConstants.EXPECTED_URL_BASIC_INFO );
+		Assert.assertEquals(registrationPageURL,AppConstants.EXPECTED_REGIS_URL );
 	}
 	
 	@Test
